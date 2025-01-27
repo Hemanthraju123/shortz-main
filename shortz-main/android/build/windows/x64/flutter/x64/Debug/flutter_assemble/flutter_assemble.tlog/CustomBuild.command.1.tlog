@@ -1,0 +1,28 @@
+^C:\USERS\VHEMA\DOWNLOADS\SHORTZ-MAIN1\SHORTZ-MAIN\ANDROID\BUILD\WINDOWS\X64\CMAKEFILES\0D996922C78F94EEA1D57B0DB183557B\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\vhema\Downloads\shortz-main1\shortz-main\android FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\vhema\Downloads\shortz-main1\shortz-main\android\windows\flutter\ephemeral PROJECT_DIR=C:\Users\vhema\Downloads\shortz-main1\shortz-main\android FLUTTER_TARGET=C:\Users\vhema\Downloads\shortz-main1\shortz-main\android\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\vhema\Downloads\shortz-main1\shortz-main\android\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VHEMA\DOWNLOADS\SHORTZ-MAIN1\SHORTZ-MAIN\ANDROID\BUILD\WINDOWS\X64\CMAKEFILES\092377F91691FA6A0EA7242CB1ED93A5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VHEMA\DOWNLOADS\SHORTZ-MAIN1\SHORTZ-MAIN\ANDROID\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/vhema/Downloads/shortz-main1/shortz-main/android/windows -BC:/Users/vhema/Downloads/shortz-main1/shortz-main/android/build/windows/x64 --check-stamp-file C:/Users/vhema/Downloads/shortz-main1/shortz-main/android/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
